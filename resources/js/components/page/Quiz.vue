@@ -1,97 +1,124 @@
 <template>
   <div>
-    <the-header></the-header>
     <main>
-      <div class="container">
-        <article class="col-md-8 col-xs-12">
-          <section>
-            <h2 class="quiz-question-h2">
-              <img class="quiz-question__logo" src="/images/what-is-mark.png" />
-              第1問
-            </h2>
-            <p>正しい敬語を使った表現を１つ選んでください。</p>
-            <div class="quiz-answer__list">
-              <ul>
-                <li>
-                  <a>
-                    <button>1</button>
-                  </a>
-                  受付でうかがってください。
-                </li>
-                <li>
-                  <a>
-                    <button>2</button>
-                  </a>
-                  課長がおっしゃったように、ファイルをご覧ください。
-                </li>
-                <li>
-                  <a>
-                    <button>3</button>
-                  </a>
-                  部長が申されたように進めていきます。
-                </li>
-                <li>
-                  <a>
-                    <button>4</button>
-                  </a>
-                  ○△商事の□□様がお越しになられました。
-                </li>
-              </ul>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <p class="score">Score {{ score }}</p>
+                    <p v-if="'show' === mode" class="number" :class="{ '-hidden': hidden }">{{ number }}</p>
+                    <form v-else class="input-panel" method="POST" :action="url" @submit="onSubmit($event)">
+                        <slot></slot>
+                        <input type="hidden" name="score" v-model="score">
+                        <div class="form-group">
+                            <label for="answer">答えを入力してください（半角数字）</label>
+                            <input type="tel" class="form-control" ref="answer" v-model.number="answer">
+                            <transition name="switch" mode="out-in">
+                                <div v-if="'input' === mode" key="input" class="mt-3">
+                                    <button type="submit" class="btn btn-primary btn-block" :disabled="'' === answer">決定</button>
+                                </div>
+                                <div v-else-if="is_correct" key="correct" class="result mt-3">
+                                    <p class="result__text -correct alert alert-success"><span class="result__icon -correct">〇</span>正解！</p>
+                                    <button type="submit" class="btn btn-primary btn-block">次の問題へ</button>
+                                </div>
+                                <div v-else key="incorrect" class="result mt-3">
+                                    <div class="alert alert-danger">
+                                        <p class="result__text -incorrect mb-0"><span class="result__icon -incorrect">×</span>残念</p>
+                                        <p class="result__answer mb-0">正解は、{{ correct_answer }}でした</p>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-block">スコアを送信</button>
+                                </div>
+                            </transition>
+                        </div>
+                    </form>
+                </div>
             </div>
-          </section>
-          <section>
-            <h2 class="quiz-correct-h2">
-              <img class="quiz-correct__logo" src="/images/correct-mark.png" />正解
-            </h2>
-            <p>
-              <button class="quiz-correct-answer">1</button>
-            </p>
-            <button>正解を表示する</button>
-            <div class="alert alert-info">
-              <strong>正解!</strong>
-            </div>
-            <div class="alert alert-danger">
-              <strong>不正解!</strong>
-            </div>
-          </section>
-          <section >
-            <h2 class="quiz-commentary-h2">
-              <img class="quiz-commentary__logo" src="/images/commentary-mark.png" />解説
-            </h2>
-            <div class="quiz-commentary__text">
-              1）3）4）は、どこが間違っていたの？ <br>
-              1）受付でうかがってください。<br>
-              「うかがう」は謙譲語。謙譲語は自分または身内（自分の会社も含みます）の者に使う言葉で、相手に使うのは間違いです。<br>
-              『受付でお尋ねください。』が正解です。<br><br>
-              3）部長が申されたように進めていきます。<br>
-              「申す」も謙譲語です。謙譲語にれる・られるを付けても尊敬語にはなりません。<br>
-              『社長がおっしゃったように進めていきます。』が正解です。<br><br>
-              4）○△商事の□□様がお越しになられました。<br>
-              「なられました」は二重敬語の典型的な表現です。<br>
-              『○△商事の□□様がお越しになりました。』が正解です。<br>
-            </div>
-            <button type="button" class="btn btn-primary center-block">次の問題へ</button>
-            <button type="button" class="center-block">結果を見る</button>
-          </section>
-        </article>
-        <the-sidebar></the-sidebar>
-      </div>
+        </div>
+    </div>
+    <the-sidebar></the-sidebar>
     </main>
-    <the-footer></the-footer>
   </div>
 </template>
 
 <script>
-import TheHeader from "../layout/TheHeader";
-import TheFooter from "../layout/TheFooter";
 import TheSidebar from "../layout/TheSidebar";
 
 export default {
   components: {
-    TheHeader,
-    TheFooter,
     TheSidebar,
   }
 };
 </script>
-</script>
+
+
+<style lang="scss" scoped>
+
+.switch-enter-active {
+    transition: all 0.5s;
+}
+
+.switch-leave-active {
+    transition: opacity 0.2s;
+}
+
+.switch-enter, .switch-leave-to {
+    opacity: 0;
+}
+
+.switch-enter {
+    transform: translateY(2rem);
+}
+
+.score {
+    padding: 0.5rem 1rem 0;
+    font-size: 1.25rem;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    font-size: 5rem;
+    text-align: center;
+
+    &.-hidden {
+        visibility: hidden;
+    }
+}
+
+.input-panel {
+    position: relative;
+    width: 25rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.result__text {
+    font-size: 1.5rem;
+    line-height: 1.2;
+
+    &.-correct {
+        color: var(--success);
+    }
+}
+
+.result__icon {
+    margin-right: 1rem;
+
+    &.-correct {
+        font-size: 2.5rem;
+        vertical-align: -0.25rem;
+    }
+    &.-incorrect {
+        font-size: 3rem;
+        vertical-align: -0.25rem;
+    }
+}
+
+.result__answer {
+    padding-bottom: 0.5rem;
+}
+</style>
