@@ -14,5 +14,4 @@ class InformationController extends Controller
 
       return $informations;
     }
-
 }

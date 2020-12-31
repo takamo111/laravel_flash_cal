@@ -14,10 +14,8 @@
             <h2 class="home-quiz__setting-h2">
               <img class="home-quiz__setting-h2-logo" src="/public/images/directory-icon.png" />出題設定
             </h2>
-
               <button type="submit" class="btn btn-primary">出題開始</button>
               <input type="hidden" name="_token" value />
-            </form>
           </section>
           <section class="home-quiz__ranking">
             <h2 class="home-quiz__ranking-h2">
@@ -35,8 +33,8 @@
               </label>
             </div>
             <div class="home_quiz__ranking-chart">
-	      <bar-chart></bar-chart>
-	    </div>
+        <bar-chart></bar-chart>
+      </div>
           </section>
           <section class="home__notice">
             <h2 class="home__notice-h2">
@@ -49,7 +47,7 @@
             </dl>
           </section>
         </article>
-	<the-sidebar></the-sidebar>
+  <the-sidebar></the-sidebar>
       </div>
     </main>
   </div>
