@@ -188,7 +188,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -204,7 +203,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
-    this.$http.get("/api/infromation").then(function (response) {
+    this.$http.get("/api/information").then(function (response) {
       _this.information = response.data;
     });
   }
