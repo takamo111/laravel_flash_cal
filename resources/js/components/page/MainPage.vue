@@ -1,7 +1,7 @@
 <template>
   <div>
-    <the-header />
-      <router-view :errors="errors" />
+    <the-header :auth="auth" />
+    <router-view :errors="errors" />
     <the-footer />
   </div>
 </template>
@@ -11,15 +11,18 @@ import TheHeader from '../layout/TheHeader'
 import TheFooter from '../layout/TheFooter'
 
 export default {
-  name: 'app',
-  components : {
+  name: "app",
+  components: {
     TheHeader,
     TheFooter
   },
-    props: {
+  props: {
+    auth: {
+      type: Object | Array
+    },
     errors: {
       type: Object | Array
     }
   }
-}
+};
 </script>

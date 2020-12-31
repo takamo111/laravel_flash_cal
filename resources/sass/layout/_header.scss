@@ -22,6 +22,9 @@ header {
       height: 170px;
       margin-top: 10px;
     }
+    &-nav__drop-down {
+      background: $thin-gray;
+    }
   }
 
   #header {
@@ -36,6 +39,19 @@ header {
 
       &__register {
         color: $white;
+      }
+      &__name {
+        color: $white;
+      }
+
+      &__mypage {
+        color: $white;
+        margin: auto;
+      }
+
+      &__logout {
+        color: $white;
+        margin: auto;
       }
     }
   }
