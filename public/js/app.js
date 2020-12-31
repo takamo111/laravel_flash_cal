@@ -59400,11 +59400,11 @@ var render = function() {
                       { staticClass: "alert alert-danger text-center" },
                       [
                         _vm._v(
-                          "\n                ユーザー登録実行時にエラーが発生しました\n                "
+                          "\n                ユーザー登録実行時にエラーが発生しました\n              "
                         ),
                         _vm._l(_vm.errors, function(error, key, index) {
                           return _c("div", { key: index }, [
-                            _vm._v(_vm._s(key) + ":" + _vm._s(error))
+                            _vm._v(_vm._s(error))
                           ])
                         })
                       ],
