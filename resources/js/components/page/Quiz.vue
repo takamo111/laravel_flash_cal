@@ -1,124 +1,186 @@
 <template>
   <div>
+    <the-header></the-header>
     <main>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <p class="score">Score {{ score }}</p>
-                    <p v-if="'show' === mode" class="number" :class="{ '-hidden': hidden }">{{ number }}</p>
-                    <form v-else class="input-panel" method="POST" :action="url" @submit="onSubmit($event)">
-                        <slot></slot>
-                        <input type="hidden" name="score" v-model="score">
-                        <div class="form-group">
-                            <label for="answer">答えを入力してください（半角数字）</label>
-                            <input type="tel" class="form-control" ref="answer" v-model.number="answer">
-                            <transition name="switch" mode="out-in">
-                                <div v-if="'input' === mode" key="input" class="mt-3">
-                                    <button type="submit" class="btn btn-primary btn-block" :disabled="'' === answer">決定</button>
-                                </div>
-                                <div v-else-if="is_correct" key="correct" class="result mt-3">
-                                    <p class="result__text -correct alert alert-success"><span class="result__icon -correct">〇</span>正解！</p>
-                                    <button type="submit" class="btn btn-primary btn-block">次の問題へ</button>
-                                </div>
-                                <div v-else key="incorrect" class="result mt-3">
-                                    <div class="alert alert-danger">
-                                        <p class="result__text -incorrect mb-0"><span class="result__icon -incorrect">×</span>残念</p>
-                                        <p class="result__answer mb-0">正解は、{{ correct_answer }}でした</p>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary btn-block">スコアを送信</button>
-                                </div>
-                            </transition>
-                        </div>
-                    </form>
-                </div>
+      <div class="container">
+        <article class="col-md-8 col-xs-12">
+          <section>
+            <h2 class="quiz-question-h2">
+              <img class="quiz-question__logo" src="/images/what-is-mark.png" />
+              問題{{quizNumber}}
+            </h2>
+            <p>{{title}}</p>
+            <div V-if="imageSrc">
+              <img class="img-responsive" id="quiz-image" :src="'/images/quiz/' + imageSrc" /></div>
+            <div class="quiz-answer__list">
+              <ul>             
+                <li v-for="(answer, index) in answers" :key="index">
+                  <a>
+                    <button
+                      @click="goAnswer(index+1)"
+                      :disabled="isAlreadyAnswered"
+                    >{{index+1}}</button>
+                  </a>
+                  {{answer}}
+                </li>
+              </ul>
             </div>
-        </div>
-    </div>
-    <the-sidebar></the-sidebar>
+            <div class="text-right">カテゴリー: {{ categoryName }}</div>
+          </section>
+          <section>
+            <h2 class="quiz-correct-h2">
+              <img class="quiz-correct__logo" src="/images/correct-mark.png" />正解
+            </h2>
+            <p>
+              <button
+                class="quiz-correct-answer"
+                v-show="isAlreadyAnswered"
+                disabled
+              >{{ correctAnswerNo }}</button>
+            </p>
+            <button @click="goAnswer(0)" v-show="!isAlreadyAnswered">正解を表示する</button>
+            <div class="alert alert-info" v-show="isCorrect">
+              <strong>正解!</strong>
+            </div>
+            <div class="alert alert-danger" v-show="isMistake">
+              <strong>不正解!</strong>
+            </div>
+          </section>
+          <section >
+            <h2 class="quiz-commentary-h2">
+              <img class="quiz-commentary__logo" src="/images/commentary-mark.png" />解説
+            </h2>
+            <div
+              class="quiz-commentary__text"
+              v-show="isAlreadyAnswered"
+              style="white-space:pre-wrap; word-wrap:break-word;"
+            >{{ commentary }}</div>
+
+            <button
+              type="button"
+              class="btn btn-primary center-block"
+              @click="goNextQuiz"
+              v-if="!isQuizFinish"
+            >次の問題へ</button>
+            <button
+              type="button"
+              data-toggle="modal"
+              data-target="#modal-result"
+              class="center-block"
+              v-if="isQuizFinish"
+              @click="showResult"
+            >結果を見る</button>
+          </section>
+        </article>
+        <the-sidebar></the-sidebar>
+      </div>
     </main>
+    <the-footer></the-footer>
+    <the-modal :correctPercentageObject="correctPercentageObject" ref="modal" ></the-modal>
   </div>
 </template>
 
 <script>
+import TheHeader from "../layout/TheHeader";
+import TheFooter from "../layout/TheFooter";
 import TheSidebar from "../layout/TheSidebar";
+import TheModal from "../module/TheModal";
 
 export default {
   components: {
+    TheHeader,
+    TheFooter,
     TheSidebar,
+    TheModal
+  },
+  data() {
+    return {
+      quizData: [],
+      title:"",
+      imageSrc:"",
+      answers:[],
+      commentetary:"",
+      correctAnswerNo: 0,
+      isCorrect: false, 
+      isMistake: false, 
+      isAlreadyAnswered: false, 
+      isQuizFinish: false, 
+      score: 0,
+      quizNumber: 1,
+      categoryName: "",
+       correctPercentageObject: {}
+    };
+  },
+ mounted() {
+    const categories = this.$route.query.categories;
+    this.$http.get(`/api/quiz?categories=${categories}`).then(response => {
+      this.quizData = response.data;
+      this.findNextQuiz(0);
+      console.log(this.quizData);
+    });
+  },
+
+  methods:{
+  goAnswer(selectAnswerNum){
+    if(selectAnswerNum === 0){
+      //selectAnswerNumが0なら、ボタンのクリック時に alert-info（正解）、alert-danger（不正解）を非表示
+        this.isCorrect = false;
+        this.isMistake = false;
+    } else if (selectAnswerNum === Number(this.correctAnswerNo)) {
+      //正解ならalert-infoを表示し、alert-dangerを非表示にする そしてスコアを加算する
+      this.isCorrect = true;
+      this.isMistake = false;
+      this.score += 1;
+    }else {
+      // 不正解なら alert-infoを非表示し、alert-dangerを表示にする
+        this.isMistake = true;
+        this.isCorrect = false;
+      }
+      this.isAlreadyAnswered = true;
+    //10門以上の回答でクイズ終了
+    if(this.quizNumber >= 10){
+      this.endQuiz();
+    }
+  },
+    
+    findNextQuiz(quizNumber){
+      this.title = this.quizData[quizNumber].title;
+      this.answers=[
+        this.quizData[quizNumber].answer.answer_1,
+        this.quizData[quizNumber].answer.answer_2,
+        this.quizData[quizNumber].answer.answer_3,
+        this.quizData[quizNumber].answer.answer_4
+      ];
+      this.commentary = this.quizData[quizNumber].answer.commentary;
+      this.correctAnswerNo = this.quizData[quizNumber].answer.correct_answer_no;
+      this.categoryName = this.quizData[quizNumber].category.name;
+
+    },
+    //次のクイズに移行する
+    goNextQuiz(){
+      if(this.quizNumber >= 10){
+        this.endQuiz();
+      } else {
+        this.findNextQuiz(this.quizNumber);
+        this.quizNumber += 1;
+        this.isCorrect = false;
+        this.isMistake = false;
+        this.isAlreadyAnswered = false;
+      }
+    },
+  //クイズを終了する
+   endQuiz(){
+      this.isQuizFinish = true;
+      this.answerNo = "-";
+      this.isAlreadyAnswered = true;
+      this.correctPercentageObject = {
+        correctScore: this.score,
+        mistakeScore:  10 - this.score
+      };
+   },
+   showResult(){
+     this.$refs.modal.render();
+   }
   }
 };
 </script>
-
-
-<style lang="scss" scoped>
-
-.switch-enter-active {
-    transition: all 0.5s;
-}
-
-.switch-leave-active {
-    transition: opacity 0.2s;
-}
-
-.switch-enter, .switch-leave-to {
-    opacity: 0;
-}
-
-.switch-enter {
-    transform: translateY(2rem);
-}
-
-.score {
-    padding: 0.5rem 1rem 0;
-    font-size: 1.25rem;
-}
-
-.number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10rem;
-    font-size: 5rem;
-    text-align: center;
-
-    &.-hidden {
-        visibility: hidden;
-    }
-}
-
-.input-panel {
-    position: relative;
-    width: 25rem;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-}
-
-.result__text {
-    font-size: 1.5rem;
-    line-height: 1.2;
-
-    &.-correct {
-        color: var(--success);
-    }
-}
-
-.result__icon {
-    margin-right: 1rem;
-
-    &.-correct {
-        font-size: 2.5rem;
-        vertical-align: -0.25rem;
-    }
-    &.-incorrect {
-        font-size: 3rem;
-        vertical-align: -0.25rem;
-    }
-}
-
-.result__answer {
-    padding-bottom: 0.5rem;
-}
-</style>
