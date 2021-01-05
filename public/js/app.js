@@ -58576,7 +58576,7 @@ var render = function() {
         _c("router-link", { attrs: { to: "/" } }, [
           _c("img", {
             staticClass: "header-nav__logo",
-            attrs: { src: "/images/header-logo.png" }
+            attrs: { src: "/images/minerals/紫水晶.png" }
           })
         ])
       ],
