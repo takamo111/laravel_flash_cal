@@ -83,6 +83,7 @@ export default {
       category: [],
     };
   },
+  //Axiosで /api/〇〇にアクセスし、取得した結果をthis.〇〇に代入する。
   mounted() {
     this.$http.get("/api/category").then(response => {
       this.category = response.data;

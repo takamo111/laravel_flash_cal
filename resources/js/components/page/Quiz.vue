@@ -10,6 +10,7 @@
               問題{{quizNumber}}
             </h2>
             <p>{{title}}</p>
+             <!-- V-ifは要素が真の場合のみ表示する-->
             <div V-if="imageSrc">
               <img class="img-responsive" id="quiz-image" :src="'/images/quiz/' + imageSrc" /></div>
             <div class="quiz-answer__list">

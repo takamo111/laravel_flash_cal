@@ -16,35 +16,46 @@ class CategoryTableSeeder extends Seeder
         DB::table('categories')->insert(
           [
             [
-              'name' => '鉱物',
+              'name' => '元素鉱物',
               'created_at' => now(),
               'updated_at' => now(),
             ],
             [
-              'name' => '岩石',
+              'name' => '硫化鉱物',
               'created_at' => now(),
               'updated_at' => now(),
             ],
             [
-              'name' => 'サンプル',
+              'name' => '酸化鉱物',
               'created_at' => now(),
               'updated_at' => now(),
             ],
             [
-              'name' => 'サンプル',
+              'name' => '炭酸塩鉱物',
+              'created_at' => now(),
+              'updated_at' => now(),
+            ], 
+            [
+              'name' => '珪酸塩鉱物',
               'created_at' => now(),
               'updated_at' => now(),
             ],
             [
-              'name' => 'サンプル',
-              'created_at' => now(),
-              'updated_at' => now(),
-            ], [
-              'name' => 'サンプル',
-              'created_at' => now(),
-              'updated_at' => now(),
-            ]
+                'name' => '酸化鉱物',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => '宝石',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'その他',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
           ]
         );
-      }
     }
+}

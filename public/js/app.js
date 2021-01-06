@@ -2241,6 +2241,7 @@ __webpack_require__.r(__webpack_exports__);
       category: []
     };
   },
+  //Axiosで /api/〇〇にアクセスし、取得した結果をthis.〇〇に代入する。
   mounted: function mounted() {
     var _this = this;
 
@@ -2478,6 +2479,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layout_TheFooter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layout/TheFooter */ "./resources/js/components/layout/TheFooter.vue");
 /* harmony import */ var _layout_TheSidebar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layout/TheSidebar */ "./resources/js/components/layout/TheSidebar.vue");
 /* harmony import */ var _module_TheModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../module/TheModal */ "./resources/js/components/module/TheModal.vue");
+//
 //
 //
 //

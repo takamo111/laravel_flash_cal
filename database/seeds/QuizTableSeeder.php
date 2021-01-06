@@ -21,7 +21,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '2クォーツ',
@@ -29,7 +29,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '3黒曜石',
@@ -37,7 +37,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '4翡翠',
@@ -45,7 +45,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '5自然金',
@@ -53,7 +53,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '6ラピスラズリ',
@@ -61,7 +61,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '7琥珀',
@@ -69,7 +69,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '8トルマリン',
@@ -77,7 +77,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '9トルコ石',
@@ -85,7 +85,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '10孔雀石',
@@ -93,7 +93,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '11ダイヤモンド',
@@ -101,7 +101,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '12石膏',
@@ -109,7 +109,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '13沸石',
@@ -117,7 +117,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '14方解石',
@@ -125,7 +125,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '15辰砂',
@@ -133,7 +133,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '16輝銅鉱',
@@ -141,7 +141,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '17鉄鉱石',
@@ -149,7 +149,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '18ルチル',
@@ -157,7 +157,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '19アレキサンドライト',
@@ -165,7 +165,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '21自然銀',
@@ -173,7 +173,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '紫水晶.png',
             ],
             [
               'title' => '21トパーズ',
@@ -181,7 +181,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 1,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => NULL,
+              'image_src' => '/images/quiz/紫水晶.png',
             ]
           ]
         );

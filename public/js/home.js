@@ -311,6 +311,7 @@ __webpack_require__.r(__webpack_exports__);
       category: []
     };
   },
+  //Axiosで /api/〇〇にアクセスし、取得した結果をthis.〇〇に代入する。
   mounted: function mounted() {
     var _this = this;
 
