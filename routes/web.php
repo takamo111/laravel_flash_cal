@@ -10,9 +10,10 @@ Route::get('/login', function () {
   return view('auth.login.index');
 });
 
+
 Route::get('/mypage', function () {
   return view('mypage.index');
-});
+})->middleware('auth');
 
 Route::get('/keyword', function () {
   return view('keyword.index');
@@ -20,7 +21,7 @@ Route::get('/keyword', function () {
 
 Route::get('/register', function () {
   return view('auth.register.index');
-});
+})->name('login');
 
 Route::post('/register', 'Auth\RegisterController@register');
 

@@ -112,16 +112,24 @@ export default {
        correctPercentageObject: {}
     };
   },
- mounted() {
+  mounted() {
     const categories = this.$route.query.categories;
 
     const loader = this.$loading.show();
 
     this.$http.get(`/api/quiz?categories=${categories}`).then(response => {
       this.quizData = response.data;
-      this.findNextQuiz(0);
-      loader.hide();
-      console.log(this.quizData);
+      if(this.quizData.length<10){
+        alert("クイズ10問以下のため、初期画面に戻ります。カテゴリーを選択し直してください");
+        location.href = "/";
+      }else{
+        this.findNextQuiz(0);
+        loader.hide();
+      }
+      })
+     .catch(error => {
+        alert("クイズの読み込みに失敗したため、初期画面に戻ります");
+        location.href = "/";
     });
   },
 
@@ -148,9 +156,10 @@ export default {
     }
   },
     
-    findNextQuiz(quizNumber){
+    findNextQuiz(quizNumber) {
+      window.scroll(0, 0);
       this.title = this.quizData[quizNumber].title;
-      this.answers=[
+      this.answers = [
         this.quizData[quizNumber].answer.answer_1,
         this.quizData[quizNumber].answer.answer_2,
         this.quizData[quizNumber].answer.answer_3,
@@ -159,7 +168,6 @@ export default {
       this.commentary = this.quizData[quizNumber].answer.commentary;
       this.correctAnswerNo = this.quizData[quizNumber].answer.correct_answer_no;
       this.categoryName = this.quizData[quizNumber].category.name;
-
     },
     //次のクイズに移行する
     goNextQuiz(){
