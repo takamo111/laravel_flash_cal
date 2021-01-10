@@ -4,6 +4,8 @@ import SocialSharing from 'vue-social-sharing'
 import axios from 'axios'
 import jQuery from "jquery";
 import MainPage from './components/page/MainPage'
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
 
 window.$ = window.jQuery = jQuery;
 require('bootstrap');
@@ -15,6 +17,7 @@ axios.defaults.headers.common['Authorization'] = "Bearer " + document
   .getAttribute("content");
 
 Vue.use(SocialSharing);
+Vue.use(Loading);
 
 new Vue({
   router: router,
