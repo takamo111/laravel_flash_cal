@@ -2808,6 +2808,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 
@@ -2884,6 +2886,7 @@ __webpack_require__.r(__webpack_exports__);
     findNextQuiz: function findNextQuiz(quizNumber) {
       window.scroll(0, 0);
       this.title = this.quizData[quizNumber].title;
+      this.imageSrc = this.quizData[quizNumber].image_src;
       this.answers = [this.quizData[quizNumber].answer.answer_1, this.quizData[quizNumber].answer.answer_2, this.quizData[quizNumber].answer.answer_3, this.quizData[quizNumber].answer.answer_4];
       this.commentary = this.quizData[quizNumber].answer.commentary;
       this.correctAnswerNo = this.quizData[quizNumber].answer.correct_answer_no;
@@ -60969,11 +60972,15 @@ var render = function() {
                 _c("p", [_vm._v(_vm._s(_vm.title))]),
                 _vm._v(" "),
                 _c("div", { attrs: { "V-if": "imageSrc" } }, [
+                  _c("img", { attrs: { src: "images/" + _vm.title } }),
+                  _vm._v(" "),
                   _c("img", {
                     staticClass: "img-responsive",
                     attrs: {
                       id: "quiz-image",
-                      src: "/images/quiz/" + _vm.imageSrc
+                      src: "/images/quiz/" + _vm.imageSrc,
+                      width: "200",
+                      height: "200"
                     }
                   })
                 ]),

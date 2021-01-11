@@ -12,7 +12,9 @@
             <p>{{title}}</p>
              <!-- V-ifは要素が真の場合のみ表示する-->
             <div V-if="imageSrc">
-              <img class="img-responsive" id="quiz-image" :src="'/images/quiz/' + imageSrc" /></div>
+                <img v-bind:src="'images/' + title"/>
+              <img class="img-responsive" id="quiz-image" :src="'/images/quiz/' + imageSrc" width="200" height="200" /></div>
+
             <div class="quiz-answer__list">
               <ul>             
                 <li v-for="(answer, index) in answers" :key="index">
@@ -159,6 +161,7 @@ export default {
     findNextQuiz(quizNumber) {
       window.scroll(0, 0);
       this.title = this.quizData[quizNumber].title;
+      this.imageSrc = this.quizData[quizNumber].image_src;
       this.answers = [
         this.quizData[quizNumber].answer.answer_1,
         this.quizData[quizNumber].answer.answer_2,

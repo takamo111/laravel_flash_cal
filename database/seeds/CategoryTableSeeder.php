@@ -21,7 +21,7 @@ class CategoryTableSeeder extends Seeder
               'updated_at' => now(),
             ],
             [
-              'name' => '硫化鉱物',
+              'name' => '紫水晶.png',
               'created_at' => now(),
               'updated_at' => now(),
             ],

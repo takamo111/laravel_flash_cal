@@ -181,7 +181,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 1,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '/images/quiz/紫水晶.png',
+              'image_src' => '紫水晶.png',
             ]
           ]
         );
