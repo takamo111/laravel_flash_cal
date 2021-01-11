@@ -4877,6 +4877,10 @@ article {
   margin: 10px 0px;
 }
 
+.quiz__responsive {
+  width: 30%;
+}
+
 .quiz-correct-h2 {
   border-bottom: solid;
 }

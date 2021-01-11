@@ -12,9 +12,7 @@
             <p>{{title}}</p>
              <!-- V-ifは要素が真の場合のみ表示する-->
             <div V-if="imageSrc">
-                <img v-bind:src="'images/' + title"/>
-              <img class="img-responsive" id="quiz-image" :src="'/images/quiz/' + imageSrc" width="200" height="200" /></div>
-
+              <img class="quiz__responsive" id="quiz-image" :src="'/images/quiz/' + imageSrc"  /></div>
             <div class="quiz-answer__list">
               <ul>             
                 <li v-for="(answer, index) in answers" :key="index">

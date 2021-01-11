@@ -2808,8 +2808,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 
@@ -60972,15 +60970,11 @@ var render = function() {
                 _c("p", [_vm._v(_vm._s(_vm.title))]),
                 _vm._v(" "),
                 _c("div", { attrs: { "V-if": "imageSrc" } }, [
-                  _c("img", { attrs: { src: "images/" + _vm.title } }),
-                  _vm._v(" "),
                   _c("img", {
-                    staticClass: "img-responsive",
+                    staticClass: "quiz__responsive",
                     attrs: {
                       id: "quiz-image",
-                      src: "/images/quiz/" + _vm.imageSrc,
-                      width: "200",
-                      height: "200"
+                      src: "/images/quiz/" + _vm.imageSrc
                     }
                   })
                 ]),
