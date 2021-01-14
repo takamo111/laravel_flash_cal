@@ -59450,7 +59450,7 @@ var render = function() {
         _c("router-link", { attrs: { to: "/" } }, [
           _c("img", {
             staticClass: "header-nav__logo",
-            attrs: { src: "/images/minerals/紫水晶.png" }
+            attrs: { src: "/images/header-logo.png" }
           })
         ])
       ],
@@ -59650,328 +59650,221 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("aside", { staticClass: "col-md-4 col-xs-12" }, [
-    _c("section", { staticClass: "sidebar-sns-section" }, [
-      _c("h3", { staticClass: "text-center sidebar-sns-h3" }, [
-        _vm._v("SNS共有")
-      ]),
+  return _c("section", { staticClass: "sidebar-keywords" }, [
+    _c("h3", { staticClass: "text-center sidebar-keywords-h3" }, [
+      _vm._v("キーワード集")
+    ]),
+    _vm._v(" "),
+    _c("ul", { staticClass: "sidebar-keywords__links" }, [
+      _c(
+        "li",
+        [
+          _c("router-link", { attrs: { to: "/keyword?initial=あ" } }, [
+            _vm._v("あ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=い" } }, [
+            _vm._v("い")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=う" } }, [
+            _vm._v("う")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=え" } }, [
+            _vm._v("え")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=お" } }, [
+            _vm._v("お")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=か" } }, [
+            _vm._v("か")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=き" } }, [
+            _vm._v("き")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=く" } }, [
+            _vm._v("く")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=け" } }, [
+            _vm._v("け")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=こ" } }, [
+            _vm._v("こ")
+          ])
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "sidebar-sns-links" },
+        "li",
         [
-          _c("social-sharing", {
-            attrs: { title: "shareボタン" },
-            inlineTemplate: {
-              render: function() {
-                var _vm = this
-                var _h = _vm.$createElement
-                var _c = _vm._self._c || _h
-                return _c(
-                  "div",
-                  { staticClass: "twitter__share" },
-                  [
-                    _c("network", { attrs: { network: "twitter" } }, [
-                      _c("i", { staticClass: "fab fa-twitter" }),
-                      _vm._v(" Twitter\n          ")
-                    ])
-                  ],
-                  1
-                )
-              },
-              staticRenderFns: []
-            }
-          }),
+          _c("router-link", { attrs: { to: "/keyword?initial=さ" } }, [
+            _vm._v("さ")
+          ]),
           _vm._v(" "),
-          _c("social-sharing", {
-            attrs: { title: "shareボタン" },
-            inlineTemplate: {
-              render: function() {
-                var _vm = this
-                var _h = _vm.$createElement
-                var _c = _vm._self._c || _h
-                return _c(
-                  "div",
-                  { staticClass: "facebook__share" },
-                  [
-                    _c("network", { attrs: { network: "facebook" } }, [
-                      _c("i", { staticClass: "fab fa-facebook" }),
-                      _vm._v(" Facebook\n          ")
-                    ])
-                  ],
-                  1
-                )
-              },
-              staticRenderFns: []
-            }
-          }),
+          _c("router-link", { attrs: { to: "/keyword?initial=し" } }, [
+            _vm._v("し")
+          ]),
           _vm._v(" "),
-          _c("social-sharing", {
-            attrs: { title: "shareボタン" },
-            inlineTemplate: {
-              render: function() {
-                var _vm = this
-                var _h = _vm.$createElement
-                var _c = _vm._self._c || _h
-                return _c(
-                  "div",
-                  { staticClass: "line__share" },
-                  [
-                    _c("network", { attrs: { network: "line" } }, [
-                      _c("i", { staticClass: "fab fa-line" }),
-                      _vm._v(" Line\n          ")
-                    ])
-                  ],
-                  1
-                )
-              },
-              staticRenderFns: []
-            }
-          }),
+          _c("router-link", { attrs: { to: "/keyword?initial=す" } }, [
+            _vm._v("す")
+          ]),
           _vm._v(" "),
-          _c("social-sharing", {
-            attrs: { title: "shareボタン" },
-            inlineTemplate: {
-              render: function() {
-                var _vm = this
-                var _h = _vm.$createElement
-                var _c = _vm._self._c || _h
-                return _c(
-                  "div",
-                  { staticClass: "google__share" },
-                  [
-                    _c("network", { attrs: { network: "googleplus" } }, [
-                      _c("i", { staticClass: "fab fa-google" }),
-                      _vm._v(" google\n          ")
-                    ])
-                  ],
-                  1
-                )
-              },
-              staticRenderFns: []
-            }
-          })
+          _c("router-link", { attrs: { to: "/keyword?initial=せ" } }, [
+            _vm._v("せ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=そ" } }, [
+            _vm._v("そ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=た" } }, [
+            _vm._v("た")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ち" } }, [
+            _vm._v("ち")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=つ" } }, [
+            _vm._v("つ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=て" } }, [
+            _vm._v("て")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=と" } }, [
+            _vm._v("と")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "li",
+        [
+          _c("router-link", { attrs: { to: "/keyword?initial=な" } }, [
+            _vm._v("な")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=に" } }, [
+            _vm._v("に")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ぬ" } }, [
+            _vm._v("ぬ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ね" } }, [
+            _vm._v("ね")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=の" } }, [
+            _vm._v("の")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=は" } }, [
+            _vm._v("は")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ひ" } }, [
+            _vm._v("ひ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ふ" } }, [
+            _vm._v("ふ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=へ" } }, [
+            _vm._v("へ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ほ" } }, [
+            _vm._v("ほ")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "li",
+        [
+          _c("router-link", { attrs: { to: "/keyword?initial=ま" } }, [
+            _vm._v("ま")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=み" } }, [
+            _vm._v("み")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=む" } }, [
+            _vm._v("む")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=め" } }, [
+            _vm._v("め")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=も" } }, [
+            _vm._v("も")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ら" } }, [
+            _vm._v("ら")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=り" } }, [
+            _vm._v("り")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=る" } }, [
+            _vm._v("る")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=れ" } }, [
+            _vm._v("れ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ろ" } }, [
+            _vm._v("ろ")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "li",
+        [
+          _c("router-link", { attrs: { to: "/keyword?initial=や" } }, [
+            _vm._v("や")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=ゆ" } }, [
+            _vm._v("ゆ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=よ" } }, [
+            _vm._v("よ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=わ" } }, [
+            _vm._v("わ")
+          ]),
+          _vm._v(" "),
+          _c("router-link", { attrs: { to: "/keyword?initial=を" } }, [
+            _vm._v("を")
+          ])
         ],
         1
       )
-    ]),
-    _vm._v(" "),
-    _c("section", { staticClass: "sidebar-keywords" }, [
-      _c("h3", { staticClass: "text-center sidebar-keywords-h3" }, [
-        _vm._v("キーワード集")
-      ]),
-      _vm._v(" "),
-      _c("ul", { staticClass: "sidebar-keywords__links" }, [
-        _c(
-          "li",
-          [
-            _c("router-link", { attrs: { to: "/keyword?initial=あ" } }, [
-              _vm._v("あ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=い" } }, [
-              _vm._v("い")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=う" } }, [
-              _vm._v("う")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=え" } }, [
-              _vm._v("え")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=お" } }, [
-              _vm._v("お")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=か" } }, [
-              _vm._v("か")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=き" } }, [
-              _vm._v("き")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=く" } }, [
-              _vm._v("く")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=け" } }, [
-              _vm._v("け")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=こ" } }, [
-              _vm._v("こ")
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("router-link", { attrs: { to: "/keyword?initial=さ" } }, [
-              _vm._v("さ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=し" } }, [
-              _vm._v("し")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=す" } }, [
-              _vm._v("す")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=せ" } }, [
-              _vm._v("せ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=そ" } }, [
-              _vm._v("そ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=た" } }, [
-              _vm._v("た")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ち" } }, [
-              _vm._v("ち")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=つ" } }, [
-              _vm._v("つ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=て" } }, [
-              _vm._v("て")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=と" } }, [
-              _vm._v("と")
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("router-link", { attrs: { to: "/keyword?initial=な" } }, [
-              _vm._v("な")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=に" } }, [
-              _vm._v("に")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ぬ" } }, [
-              _vm._v("ぬ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ね" } }, [
-              _vm._v("ね")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=の" } }, [
-              _vm._v("の")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=は" } }, [
-              _vm._v("は")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ひ" } }, [
-              _vm._v("ひ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ふ" } }, [
-              _vm._v("ふ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=へ" } }, [
-              _vm._v("へ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ほ" } }, [
-              _vm._v("ほ")
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("router-link", { attrs: { to: "/keyword?initial=ま" } }, [
-              _vm._v("ま")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=み" } }, [
-              _vm._v("み")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=む" } }, [
-              _vm._v("む")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=め" } }, [
-              _vm._v("め")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=も" } }, [
-              _vm._v("も")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ら" } }, [
-              _vm._v("ら")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=り" } }, [
-              _vm._v("り")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=る" } }, [
-              _vm._v("る")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=れ" } }, [
-              _vm._v("れ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ろ" } }, [
-              _vm._v("ろ")
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("router-link", { attrs: { to: "/keyword?initial=や" } }, [
-              _vm._v("や")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=ゆ" } }, [
-              _vm._v("ゆ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=よ" } }, [
-              _vm._v("よ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=わ" } }, [
-              _vm._v("わ")
-            ]),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/keyword?initial=を" } }, [
-              _vm._v("を")
-            ])
-          ],
-          1
-        )
-      ])
     ])
   ])
 }
