@@ -22,7 +22,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 1,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '硫黄.png',
+              'image_src' => '元素_硫黄.png',
             ],
             [
               'title' => '自然金',
@@ -30,7 +30,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 1,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '自然金.png',
+              'image_src' => '元素_自然金.jpeg',
             ],
             [
               'title' => '自然銀',
@@ -38,7 +38,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 1,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '自然銀.png',
+              'image_src' => '元素_自然銀.png',
             ],
             [
               'title' => '自然銅',
@@ -46,7 +46,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 1,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '自然銅.png',
+              'image_src' => '元素_自然銅.jpeg',
             ],
             [
               'title' => '白金',
@@ -54,7 +54,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 1,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '白金.png',
+              'image_src' => '元素_白金.png',
             ],
             //②酸化鉱物
 
@@ -64,7 +64,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '石英.png',
+              'image_src' => '酸化_石英.png',
             ],
             [
               'title' => '鱗珪石',
@@ -72,7 +72,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '鱗珪石.png',
+              'image_src' => '酸化_鱗珪石.png',
             ],
             [
               'title' => '方珪石',
@@ -80,7 +80,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '方珪石.png',
+              'image_src' => '酸化_方珪石.jpeg',
             ],
             [
               'title' => '赤銅鉱',
@@ -88,7 +88,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '赤銅鉱.png',
+              'image_src' => '酸化_赤銅鉱.png',
             ],
             [
               'title' => '赤鉄鉱',
@@ -96,7 +96,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '赤鉄鉱.png',
+              'image_src' => '酸化_赤鉄鉱.png',
             ],
             [
               'title' => 'チタン鉄鉱',
@@ -104,7 +104,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'チタン鉄鉱.png',
+              'image_src' => '酸化_チタン鉄鉱.png',
             ],
             [
               'title' => 'ルチル(金紅石)',
@@ -112,7 +112,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '金紅石.png',
+              'image_src' => '酸化_金紅石.png',
             ],
             [
               'title' => '鋭錐石',
@@ -120,7 +120,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '鋭錐石.png',
+              'image_src' => '酸化_鋭錐石.png',
             ],
             [
               'title' => '軟マンガン鉱',
@@ -128,7 +128,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '軟マンガン鉱.png',
+              'image_src' => '酸化_軟マンガン鉱.png',
             ],
             [
               'title' => 'スズ石',
@@ -136,7 +136,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'スズ石.png',
+              'image_src' => '酸化_スズ石.png',
             ],
             [
               'title' => '閃ウラン鉱',
@@ -144,7 +144,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '閃ウラン鉱.png',
+              'image_src' => '酸化_閃ウラン鉱.png',
             ],
             [
               'title' => '磁鉄鉱',
@@ -152,7 +152,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '磁鉄鉱.png',
+              'image_src' => '酸化_磁鉄鉱.png',
             ],
             [
               'title' => 'クロム鉄鉱',
@@ -160,7 +160,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'クロム鉄鉱.png',
+              'image_src' => '酸化_クロム鉄鉱.png',
             ],
             [
               'title' => '針鉄鉱',
@@ -168,7 +168,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '針鉄鉱.png',
+              'image_src' => '酸化_針鉄鉱.png',
             ],
             [
               'title' => 'ギプス石',
@@ -176,7 +176,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 2,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ギプス石.png',
+              'image_src' => '酸化_ギプス石.png',
             ],
 
             //③炭酸塩鉱物
@@ -187,7 +187,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '霰石.png',
+              'image_src' => '炭酸_霰石.png',
             ],
             [
               'title' => '方解石',
@@ -195,7 +195,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '方解石.png',
+              'image_src' => '炭酸_方解石.png',
             ],
             [
               'title' => '菱苦土石',
@@ -203,7 +203,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '菱苦土石.png',
+              'image_src' => '炭酸_菱苦土石.png',
             ],
             [
               'title' => '菱マンガン鉱',
@@ -211,7 +211,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '菱マンガン鉱.png',
+              'image_src' => '炭酸_菱マンガン鉱.png',
             ],
             [
               'title' => '菱鉄鉱',
@@ -219,7 +219,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '菱鉄鉱.png',
+              'image_src' => '炭酸_菱鉄鉱.png',
             ],
             [
               'title' => '菱亜鉛鉱',
@@ -227,7 +227,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '菱亜鉛鉱.png',
+              'image_src' => '炭酸_菱亜鉛鉱.png',
             ],
             [
               'title' => '藍銅鉱',
@@ -235,7 +235,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '藍銅鉱.png',
+              'image_src' => '炭酸_藍銅鉱.png',
             ],
             [
               'title' => '孔雀石',
@@ -243,7 +243,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '孔雀石.png',
+              'image_src' => '炭酸_孔雀石.png',
             ],
             [
               'title' => '白鉛鉱',
@@ -251,7 +251,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 3,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '白鉛鉱.png',
+              'image_src' => '炭酸_白鉛鉱.png',
             ],
            
             //④珪酸塩鉱物
@@ -261,7 +261,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '緑簾石.png',
+              'image_src' => '珪酸_緑簾石.png',
             ],
             [
               'title' => '紅簾石',
@@ -269,7 +269,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '紅簾石.png',
+              'image_src' => '珪酸_紅簾石.png',
             ],
             [
               'title' => '藍晶石',
@@ -277,7 +277,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '藍晶石.png',
+              'image_src' => '珪酸_藍晶石.png',
             ],
             [
               'title' => '異極鉱',
@@ -285,7 +285,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '異極鉱.png',
+              'image_src' => '珪酸_異極鉱.png',
             ],
             [
               'title' => '十字石',
@@ -293,7 +293,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '十字石.png',
+              'image_src' => '珪酸_十字石.png',
             ],
             [
               'title' => '輝石グループ',
@@ -301,7 +301,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '輝石.png',
+              'image_src' => '珪酸_輝石.png',
             ],
             [
               'title' => 'バラ輝石',
@@ -309,7 +309,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'バラ輝石.png',
+              'image_src' => '珪酸_バラ輝石.png',
             ],
             [
               'title' => 'ベスブ石',
@@ -317,7 +317,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ベスブ石.png',
+              'image_src' => '珪酸_ベスブ石.png',
             ],
             [
               'title' => '斧石',
@@ -325,7 +325,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '斧石.png',
+              'image_src' => '珪酸_斧石.png',
             ],
             [
               'title' => '珪灰石',
@@ -333,7 +333,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '珪灰石.png',
+              'image_src' => '珪酸_珪灰石.png',
             ],
             [
               'title' => '角閃石グループ',
@@ -341,7 +341,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '角閃石.png',
+              'image_src' => '珪酸_角閃石.png',
             ],
             [
               'title' => '魚眼石',
@@ -349,7 +349,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '魚眼石.png',
+              'image_src' => '珪酸_魚眼石.png',
             ],
             [
               'title' => '長石グループ',
@@ -357,7 +357,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '長石.png',
+              'image_src' => '珪酸_長石.png',
             ],
             [
               'title' => '霞石',
@@ -365,7 +365,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '霞石.png',
+              'image_src' => '珪酸_霞石.png',
             ],
             [
               'title' => '菫青石(きんせいせき)',
@@ -373,7 +373,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '菫青石.png',
+              'image_src' => '珪酸_菫青石.png',
             ],
             [
               'title' => '滑石',
@@ -381,7 +381,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '滑石.png',
+              'image_src' => '珪酸_滑石.png',
             ],
             [
               'title' => 'カオリナイト',
@@ -389,7 +389,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'カオリナイト.png',
+              'image_src' => '珪酸_カオリナイト.png',
             ],
             [
               'title' => '葉蝋石',
@@ -397,7 +397,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '葉蝋石.png',
+              'image_src' => '珪酸_葉蝋石.png',
             ],
             [
               'title' => '葉長石',
@@ -405,7 +405,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '葉長石.png',
+              'image_src' => '珪酸_葉長石.png',
             ],
             [
               'title' => '雲母グループ',
@@ -413,7 +413,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '雲母.png',
+              'image_src' => '珪酸_雲母.png',
             ],
             [
               'title' => '沸石グループ',
@@ -421,7 +421,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '沸石.png',
+              'image_src' => '珪酸_沸石.png',
             ],
             [
               'title' => '緑泥石',
@@ -429,7 +429,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '緑泥石.png',
+              'image_src' => '珪酸_緑泥石.png',
             ],
             [
               'title' => '珪孔雀石',
@@ -437,7 +437,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '珪孔雀石.png',
+              'image_src' => '珪酸_珪孔雀石.png',
             ],
             [
               'title' => '蛇紋石',
@@ -445,7 +445,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 4,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '蛇紋石.png',
+              'image_src' => '珪酸_蛇紋石.png',
             ],
 
             //⑤硫化鉱物
@@ -456,7 +456,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '輝銀鉱.png',
+              'image_src' => '硫化_輝銀鉱.png',
             ],
             [
               'title' => '輝銅鉱',
@@ -464,7 +464,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '輝銅鉱.png',
+              'image_src' => '硫化_輝銅鉱.png',
             ],
             [
               'title' => '方鉛鉱',
@@ -472,7 +472,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '方鉛鉱.png',
+              'image_src' => '硫化_方鉛鉱.png',
             ],
             [
               'title' => '閃亜鉛鉱',
@@ -480,7 +480,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '閃亜鉛鉱.png',
+              'image_src' => '硫化_閃亜鉛鉱.png',
             ],
             [
               'title' => '黄銅鉱',
@@ -488,7 +488,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '黄銅鉱.png',
+              'image_src' => '硫化_黄銅鉱.png',
             ],
             [
               'title' => '磁硫鉄鉱',
@@ -496,7 +496,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '磁硫鉄鉱.png',
+              'image_src' => '硫化_磁硫鉄鉱.jpeg',
             ],
             [
               'title' => '銅藍',
@@ -504,7 +504,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '銅藍.png',
+              'image_src' => '硫化_銅藍.png',
             ],
             [
               'title' => '辰砂',
@@ -512,7 +512,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '辰砂.png',
+              'image_src' => '硫化_辰砂.png',
             ],
             [
               'title' => '鶏冠石',
@@ -520,7 +520,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '鶏冠石.png',
+              'image_src' => '硫化_鶏冠石.png',
             ],
             [
               'title' => '輝安鉱',
@@ -528,7 +528,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '輝安鉱.png',
+              'image_src' => '硫化_輝安鉱.png',
             ],
             [
               'title' => '輝蒼鉛鉱',
@@ -536,7 +536,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '輝蒼鉛鉱.png',
+              'image_src' => '硫化_輝蒼鉛鉱.png',
             ],
             [
               'title' => '黄鉄鉱',
@@ -544,7 +544,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '黄鉄鉱.png',
+              'image_src' => '硫化_黄鉄鉱.png',
             ],
             [
               'title' => '輝コバルト鉱',
@@ -552,7 +552,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '輝コバルト鉱.png',
+              'image_src' => '硫化_輝コバルト鉱.png',
             ],
             [
               'title' => '輝水鉛鉱',
@@ -560,7 +560,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 5,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '輝水鉛鉱.png',
+              'image_src' => '硫化_輝水鉛鉱.png',
             ],
 
             //⑥宝石
@@ -570,7 +570,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ダイアモンド.png',
+              'image_src' => '宝石_ダイアモンド.png',
             ],
             [
               'title' => 'ルビー',
@@ -578,7 +578,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ルビー.png',
+              'image_src' => '宝石_ルビー.png',
             ],
             [
               'title' => 'サファイア',
@@ -586,7 +586,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'サファイア.png',
+              'image_src' => '宝石_サファイア.png',
             ],
             [
               'title' => 'エメラルド',
@@ -594,7 +594,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'エメラルド.png',
+              'image_src' => '宝石_エメラルド.png',
             ],
             [
               'title' => 'アクアマリン',
@@ -602,7 +602,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'アクアマリン.png',
+              'image_src' => '宝石_アクアマリン.png',
             ],
             [
               'title' => 'トパーズ',
@@ -610,7 +610,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'トパーズ.png',
+              'image_src' => '宝石_トパーズ.png',
             ],
             [
               'title' => 'スピネル',
@@ -618,7 +618,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'スピネル.png',
+              'image_src' => '宝石_スピネル.png',
             ],
             [
               'title' => 'ジルコン',
@@ -626,7 +626,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ジルコン.png',
+              'image_src' => '宝石_ジルコン.png',
             ],
             [
               'title' => 'トルマリン',
@@ -634,7 +634,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'トルマリン.png',
+              'image_src' => '宝石_トルマリン.png',
             ],
             [
               'title' => 'ガーネット',
@@ -642,7 +642,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ガーネット.png',
+              'image_src' => '宝石_ガーネット.png',
             ],
             [
               'title' => 'ジェード',
@@ -650,7 +650,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ジェード.png',
+              'image_src' => '宝石_ジェード.png',
             ],
             [
               'title' => 'オパール',
@@ -658,7 +658,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'オパール.png',
+              'image_src' => '宝石_オパール.png',
             ],
             [
               'title' => 'ペリドット',
@@ -666,7 +666,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ペリドット.png',
+              'image_src' => '宝石_ペリドット.png',
             ],
             [
               'title' => 'アメジスト',
@@ -674,7 +674,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'アメジスト.png',
+              'image_src' => '宝石_アメジスト.png',
             ],
             [
               'title' => 'アゲート',
@@ -682,7 +682,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'アゲート.png',
+              'image_src' => '宝石_アゲート.png',
             ],
             [
               'title' => 'クリソベリル',
@@ -690,7 +690,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'クリソベリル.png',
+              'image_src' => '宝石_クリソベリル.png',
             ],
             [
               'title' => 'ムーンストーン',
@@ -698,7 +698,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ムーンストーン.png',
+              'image_src' => '宝石_ムーンストーン.png',
             ],
             [
               'title' => 'ターコイズ',
@@ -706,7 +706,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ターコイズ.png',
+              'image_src' => '宝石_ターコイズ.png',
             ],
             [
               'title' => 'ラピスラズリ',
@@ -714,7 +714,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'ラピスラズリ.png',
+              'image_src' => '宝石_ラピスラズリ.png',
             ],
             [
               'title' => 'アンバー',
@@ -722,7 +722,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 6,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'アンバー.png',
+              'image_src' => '宝石_アンバー.png',
             ],
 
             //⑦その他
@@ -732,7 +732,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '燐灰石.png',
+              'image_src' => 'その他_燐灰石.png',
             ],
             [
               'title' => '燐灰ウラン鉱',
@@ -740,7 +740,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '燐灰ウラン鉱.png',
+              'image_src' => 'その他_燐灰ウラン鉱.png',
             ],
             [
               'title' => 'スコロド石',
@@ -748,7 +748,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '.png',
+              'image_src' => 'その他_スコロド石.png',
             ],
             [
               'title' => '藍鉄鋼',
@@ -756,7 +756,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '藍鉄鋼.png',
+              'image_src' => 'その他_藍鉄鋼.png',
             ],
             [
               'title' => 'アダム鉱',
@@ -764,7 +764,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => 'アダム鉱.png',
+              'image_src' => 'その他_アダム鉱.png',
             ],
             [
               'title' => '灰重石',
@@ -772,7 +772,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '灰重石.png',
+              'image_src' => 'その他_灰重石.png',
             ],
             [
               'title' => '蛍石',
@@ -780,7 +780,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '蛍石.png',
+              'image_src' => 'その他_蛍石.png',
             ],
             [
               'title' => '岩塩',
@@ -788,7 +788,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '岩塩.png',
+              'image_src' => 'その他_岩塩.png',
             ],
             [
               'title' => '氷晶石',
@@ -796,7 +796,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '氷晶石.png',
+              'image_src' => 'その他_氷晶石.png',
             ],
             [
               'title' => '石膏',
@@ -804,7 +804,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '石膏.png',
+              'image_src' => 'その他_石膏.png',
             ],
             [
               'title' => '重晶石',
@@ -812,7 +812,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '重晶石.png',
+              'image_src' => 'その他_重晶石.png',
             ],
             [
               'title' => '胆礬(たんばん)',
@@ -820,7 +820,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '胆礬.png',
+              'image_src' => 'その他_胆礬.png',
             ],
             [
               'title' => '明礬石',
@@ -828,7 +828,7 @@ class QuizTableSeeder extends Seeder
               'categories_id' => 7,
               'created_at' => now(),
               'updated_at' => now(),
-              'image_src' => '.png',
+              'image_src' => 'その他_明礬石.jpeg',
             ]
           ]
         );
