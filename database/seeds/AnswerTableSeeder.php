@@ -31,6 +31,7 @@ class AnswerTableSeeder extends Seeder
           'created_at' => now(),
           'updated_at' => now(),
         ],
+        
         //2クォーツ
         [
             'answer_1' => 'サンプル',
