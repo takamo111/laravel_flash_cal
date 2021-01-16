@@ -157,7 +157,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -39023,7 +39022,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("footer", [
       _c("div", { staticClass: "container text-center" }, [
-        _c("small", [_vm._v("© 2019 4Answers-quiz. All rights reserved.")])
+        _c("small", [
+          _vm._v("2021 Mineral Trivia & Quiz. All rights reserved.")
+        ])
       ])
     ])
   }
@@ -39054,8 +39055,6 @@ var render = function() {
       "div",
       { staticClass: "container text-center" },
       [
-        _c("h1", [_vm._v("4 Answers Quiz 4択クイズ&クイズ徹底解説")]),
-        _vm._v(" "),
         _c("router-link", { attrs: { to: "/" } }, [
           _c("img", {
             staticClass: "header-nav__logo",

@@ -1,6 +1,6 @@
 header {
   margin-top: -10px;
-  background:silver;
+  background:$silver;
 
   h1 {
     font-size: 12px;
@@ -18,8 +18,9 @@ header {
 
   .header {
     &-nav__logo {
-      width: 250px;
+      width: 280px;
       height: 200px;
+      padding-top: 15px;
       margin-top: 10px;
       margin-bottom: 10px;
     }

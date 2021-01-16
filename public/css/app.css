@@ -4612,7 +4612,7 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 header {
   margin-top: -10px;
-  background: silver;
+  background: rgba(69, 84, 104, 0.26);
 }
 
 header h1 {
@@ -4630,8 +4630,9 @@ header .navbar {
 }
 
 header .header-nav__logo {
-  width: 250px;
+  width: 280px;
   height: 200px;
+  padding-top: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -4697,7 +4698,7 @@ main {
   text-align: center;
   margin-top: -22px;
   padding-top: 20px;
-  background: #C2CBD3;
+  background: url("/images/hi.jpeg");
   padding-bottom: 50px;
   min-height: 1000px;
 }
@@ -4762,26 +4763,7 @@ article {
   margin-bottom: 5px;
 }
 
-.sidebar-sns-section {
-  background: #fff;
-}
-
-.sidebar-sns-h3 {
-  background: #a3c0da;
-  margin: 0px auto;
-  padding: 10px;
-}
-
-.sidebar-sns-links {
-  padding-left: 5px;
-  padding-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 .sidebar-keywords {
-  margin-top: 10px;
   border: solid #C2CBD3;
   background: #fff;
 }

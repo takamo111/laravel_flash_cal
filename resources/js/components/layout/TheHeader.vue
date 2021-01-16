@@ -1,7 +1,6 @@
 <template>
   <header>
     <div class="container text-center">
-      <h1>4 Answers Quiz 4択クイズ&クイズ徹底解説</h1>
       <router-link to="/">
         <img class="header-nav__logo" src="/images/header-logo.png" />
       </router-link>

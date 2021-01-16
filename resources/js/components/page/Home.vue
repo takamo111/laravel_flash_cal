@@ -6,10 +6,10 @@
         <article class="col-md-8 col-xs-12">
           <section class="home-quiz__introduction">
             <h2 class="home-quiz__introduction-h2">
-              <img class="home-quiz__introduction-h2-logo" src="/images/what-is-mark.png" />4 Answers Quizとは?
+              <img class="home-quiz__introduction-h2-logo" src="/images/what-is-mark.png" />鉱物の雑学&クイズとは?
             </h2>
-            <p>4 Answers Quizとはビジネスマナーから一般常識に至るまで様々なクイズを4択で出題するWEBアプリです。</p>
-            <p>何度もトライしてみて正解率100%を目指してみてください。</p>
+            <p>鉱物の雑学&クイズとは、鉱物に関する様々なクイズを4択で出題するWEBアプリです。</p>
+            <p>キーワードから鉱物の雑学を学ぶこともできます。</p>
           </section>
           <section class="home-quiz__setting">
             <h2 class="home-quiz__setting-h2">
