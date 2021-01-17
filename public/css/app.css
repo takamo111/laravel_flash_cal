@@ -4612,7 +4612,7 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 header {
   margin-top: -10px;
-  background: rgba(69, 84, 104, 0.26);
+  background: #8a888883;
 }
 
 header h1 {
@@ -4698,7 +4698,7 @@ main {
   text-align: center;
   margin-top: -22px;
   padding-top: 20px;
-  background: url("/images/hi.jpeg");
+  background: rgba(69, 84, 104, 0.26);
   padding-bottom: 50px;
   min-height: 1000px;
 }
@@ -4717,50 +4717,6 @@ article {
   .col-md-4 {
     width: 37%;
   }
-}
-
-.fa-twitter {
-  color: #00aced;
-}
-
-.twitter__share {
-  border-radius: 5px;
-  border: solid 0.5px #00aced;
-  padding: 3px;
-  margin-bottom: 5px;
-}
-
-.fa-facebook {
-  color: #3B5998;
-}
-
-.facebook__share {
-  border-radius: 5px;
-  border: solid 0.5px #3B5998;
-  padding: 3px;
-  margin-bottom: 5px;
-}
-
-.fa-line {
-  color: #00B900;
-}
-
-.line__share {
-  border-radius: 5px;
-  border: solid 0.5px #00B900;
-  padding: 3px;
-  margin-bottom: 5px;
-}
-
-.fa-google {
-  color: #DD5144;
-}
-
-.google__share {
-  border-radius: 5px;
-  border: solid 0.5px #DD5144;
-  padding: 3px;
-  margin-bottom: 5px;
 }
 
 .sidebar-keywords {
