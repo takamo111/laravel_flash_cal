@@ -19,6 +19,7 @@ class CreateKeywordsTable extends Migration
       $table->string('keyword');
       $table->text('description');
       $table->integer('categories_id');
+      $table->string('image_src')->nullable();
 
             $table->timestamps();
         });
