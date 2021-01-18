@@ -9,17 +9,17 @@
               <img class="home-quiz__introduction-h2-logo" src="/images/what-is-mark.png" />鉱物の雑学&クイズとは?
             </h2>
             <p>鉱物の雑学&クイズとは、鉱物に関する様々なクイズを4択で出題するWEBアプリです。</p>
-            <p>キーワードから鉱物の雑学を学ぶこともできます。</p>
+            <p>鉱物の知識を楽しく学びましょう！</p>
           </section>
           <section class="home-quiz__setting">
             <h2 class="home-quiz__setting-h2">
               <img class="home-quiz__setting-h2-logo" src="/images/directory-icon.png" />出題設定
             </h2>
-            <form>
+            <form class= "home-quiz__setting-btn">
               <label v-for="(cate, index) in category" :key="index">
                 <input type="checkbox" v-model="categories" :value="cate.id" />{{cate.name}}&ensp;
               </label>
-              <div >
+              <div class="home-quiz__setting-btn__check" >
                 全項目チェック
                 <button type="button" @click="checkAll">ON</button>
                 <button type="button" @click="checkAllOff">OFF</button>

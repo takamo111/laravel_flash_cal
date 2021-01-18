@@ -39185,32 +39185,32 @@ var render = function() {
       _c(
         "li",
         [
-          _c("router-link", { attrs: { to: "/keyword?initial=あ" } }, [
-            _vm._v("あ")
+          _c("router-link", { attrs: { to: "/keyword?initial=元素鉱物" } }, [
+            _vm._v("元素鉱物")
           ]),
           _vm._v(" "),
-          _c("router-link", { attrs: { to: "/keyword?initial=い" } }, [
-            _vm._v("い")
+          _c("router-link", { attrs: { to: "/keyword?initial=酸化鉱物" } }, [
+            _vm._v("酸化鉱物")
           ]),
           _vm._v(" "),
-          _c("router-link", { attrs: { to: "/keyword?initial=う" } }, [
-            _vm._v("う")
+          _c("router-link", { attrs: { to: "/keyword?initial=炭酸塩鉱物" } }, [
+            _vm._v("炭酸塩鉱物")
           ]),
           _vm._v(" "),
-          _c("router-link", { attrs: { to: "/keyword?initial=え" } }, [
-            _vm._v("え")
+          _c("router-link", { attrs: { to: "/keyword?initial=珪酸塩鉱物" } }, [
+            _vm._v("珪酸塩鉱物")
           ]),
           _vm._v(" "),
-          _c("router-link", { attrs: { to: "/keyword?initial=お" } }, [
-            _vm._v("お")
+          _c("router-link", { attrs: { to: "/keyword?initial=硫化鉱物" } }, [
+            _vm._v("硫化鉱物")
           ]),
           _vm._v(" "),
-          _c("router-link", { attrs: { to: "/keyword?initial=か" } }, [
-            _vm._v("か")
+          _c("router-link", { attrs: { to: "/keyword?initial=宝石" } }, [
+            _vm._v("宝石")
           ]),
           _vm._v(" "),
-          _c("router-link", { attrs: { to: "/keyword?initial=き" } }, [
-            _vm._v("き")
+          _c("router-link", { attrs: { to: "/keyword?initial=その他" } }, [
+            _vm._v("その他")
           ]),
           _vm._v(" "),
           _c("router-link", { attrs: { to: "/keyword?initial=く" } }, [
@@ -39436,6 +39436,7 @@ var render = function() {
                   _vm._v(" "),
                   _c(
                     "form",
+                    { staticClass: "home-quiz__setting-btn" },
                     [
                       _vm._l(_vm.category, function(cate, index) {
                         return _c("label", { key: index }, [
@@ -39482,28 +39483,32 @@ var render = function() {
                         ])
                       }),
                       _vm._v(" "),
-                      _c("div", [
-                        _vm._v(
-                          "\n              全項目チェック\n              "
-                        ),
-                        _c(
-                          "button",
-                          {
-                            attrs: { type: "button" },
-                            on: { click: _vm.checkAll }
-                          },
-                          [_vm._v("ON")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            attrs: { type: "button" },
-                            on: { click: _vm.checkAllOff }
-                          },
-                          [_vm._v("OFF")]
-                        )
-                      ]),
+                      _c(
+                        "div",
+                        { staticClass: "home-quiz__setting-btn__check" },
+                        [
+                          _vm._v(
+                            "\n              全項目チェック\n              "
+                          ),
+                          _c(
+                            "button",
+                            {
+                              attrs: { type: "button" },
+                              on: { click: _vm.checkAll }
+                            },
+                            [_vm._v("ON")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "button",
+                            {
+                              attrs: { type: "button" },
+                              on: { click: _vm.checkAllOff }
+                            },
+                            [_vm._v("OFF")]
+                          )
+                        ]
+                      ),
                       _vm._v(" "),
                       _c(
                         "button",
@@ -39696,7 +39701,7 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("p", [_vm._v("キーワードから鉱物の雑学を学ぶこともできます。")])
+      _c("p", [_vm._v("鉱物の知識を楽しく学びましょう！")])
     ])
   },
   function() {
