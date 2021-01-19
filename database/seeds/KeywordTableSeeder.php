@@ -22,7 +22,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 1,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '元素_硫黄.png',
+        'image_src' => '元素_硫黄.jpg',
       ],
       [
         'initial' => '元素鉱物',
@@ -40,7 +40,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 1,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '元素_自然銀.png',
+        'image_src' => '元素_自然銀.jpg',
       ],
       [
         'initial' => '元素鉱物',
@@ -58,7 +58,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 1,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '元素_白金.png',
+        'image_src' => '元素_白金.jpg',
       ],
       //②酸化鉱物
 
@@ -69,7 +69,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_石英.png',
+        'image_src' => '酸化_石英.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -78,7 +78,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_鱗珪石.png',
+        'image_src' => '酸化_鱗珪石.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -96,7 +96,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_赤銅鉱.png',
+        'image_src' => '酸化_赤銅鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -105,7 +105,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_赤鉄鉱.png',
+        'image_src' => '酸化_赤鉄鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -115,7 +115,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_チタン鉄鉱.png',
+        'image_src' => '酸化_チタン鉄鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -124,7 +124,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_金紅石.png',
+        'image_src' => '酸化_金紅石.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -133,7 +133,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_鋭錐石.png',
+        'image_src' => '酸化_鋭錐石.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -142,7 +142,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_軟マンガン鉱.png',
+        'image_src' => '酸化_軟マンガン鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -151,7 +151,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_スズ石.png',
+        'image_src' => '酸化_スズ石.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -160,7 +160,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_閃ウラン鉱.png',
+        'image_src' => '酸化_閃ウラン鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -169,7 +169,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_磁鉄鉱.png',
+        'image_src' => '酸化_磁鉄鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -178,7 +178,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_クロム鉄鉱.png',
+        'image_src' => '酸化_クロム鉄鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -187,7 +187,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_針鉄鉱.png',
+        'image_src' => '酸化_針鉄鉱.jpg',
       ],
       [
         'initial' => '酸化鉱物',
@@ -196,7 +196,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 2,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '酸化_ギプス石.png',
+        'image_src' => '酸化_ギプス石.jpg',
       ],
 
       //③炭酸塩鉱物
@@ -208,7 +208,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_霰石.png',
+        'image_src' => '炭酸_霰石.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -217,7 +217,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_方解石.png',
+        'image_src' => '炭酸_方解石.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -226,7 +226,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_菱苦土石.png',
+        'image_src' => '炭酸_菱苦土石.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -235,7 +235,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_菱マンガン鉱.png',
+        'image_src' => '炭酸_菱マンガン鉱.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -244,7 +244,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_菱鉄鉱.png',
+        'image_src' => '炭酸_菱鉄鉱.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -253,7 +253,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_菱亜鉛鉱.png',
+        'image_src' => '炭酸_菱亜鉛鉱.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -262,7 +262,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_藍銅鉱.png',
+        'image_src' => '炭酸_藍銅鉱.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -271,7 +271,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_孔雀石.png',
+        'image_src' => '炭酸_孔雀石.jpg',
       ],
       [
         'initial' => '炭酸塩鉱物',
@@ -280,7 +280,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 3,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '炭酸_白鉛鉱.png',
+        'image_src' => '炭酸_白鉛鉱.jpg',
       ],
      
       //④珪酸塩鉱物
@@ -291,7 +291,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_緑簾石.png',
+        'image_src' => '珪酸_緑簾石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -300,7 +300,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_紅簾石.png',
+        'image_src' => '珪酸_紅簾石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -309,7 +309,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_藍晶石.png',
+        'image_src' => '珪酸_藍晶石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -318,7 +318,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_異極鉱.png',
+        'image_src' => '珪酸_異極鉱.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -327,7 +327,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_十字石.png',
+        'image_src' => '珪酸_十字石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -336,7 +336,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_輝石.png',
+        'image_src' => '珪酸_輝石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -345,7 +345,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_バラ輝石.png',
+        'image_src' => '珪酸_バラ輝石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -354,7 +354,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_ベスブ石.png',
+        'image_src' => '珪酸_ベスブ石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -363,7 +363,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_斧石.png',
+        'image_src' => '珪酸_斧石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -372,7 +372,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_珪灰石.png',
+        'image_src' => '珪酸_珪灰石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -381,7 +381,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_角閃石.png',
+        'image_src' => '珪酸_角閃石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -391,7 +391,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_魚眼石.png',
+        'image_src' => '珪酸_魚眼石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -400,7 +400,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_長石.png',
+        'image_src' => '珪酸_長石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -409,7 +409,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_霞石.png',
+        'image_src' => '珪酸_霞石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -418,7 +418,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_菫青石.png',
+        'image_src' => '珪酸_菫青石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -427,7 +427,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_滑石.png',
+        'image_src' => '珪酸_滑石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -436,7 +436,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_カオリナイト.png',
+        'image_src' => '珪酸_カオリナイト.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -445,7 +445,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_葉蝋石.png',
+        'image_src' => '珪酸_葉蝋石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -454,7 +454,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_葉長石.png',
+        'image_src' => '珪酸_葉長石.jpg',
       ],
       [ 
         'initial' => '珪酸塩鉱物',
@@ -463,7 +463,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_雲母.png',
+        'image_src' => '珪酸_雲母.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -472,7 +472,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_沸石.png',
+        'image_src' => '珪酸_沸石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -481,7 +481,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_緑泥石.png',
+        'image_src' => '珪酸_緑泥石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -490,7 +490,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_珪孔雀石.png',
+        'image_src' => '珪酸_珪孔雀石.jpg',
       ],
       [
         'initial' => '珪酸塩鉱物',
@@ -499,7 +499,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 4,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '珪酸_蛇紋石.png',
+        'image_src' => '珪酸_蛇紋石.jpg',
       ],
 
       //⑤硫化鉱物
@@ -511,7 +511,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_輝銀鉱.png',
+        'image_src' => '硫化_輝銀鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -520,7 +520,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_輝銅鉱.png',
+        'image_src' => '硫化_輝銅鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -529,7 +529,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_方鉛鉱.png',
+        'image_src' => '硫化_方鉛鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -538,7 +538,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_閃亜鉛鉱.png',
+        'image_src' => '硫化_閃亜鉛鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -547,7 +547,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_黄銅鉱.png',
+        'image_src' => '硫化_黄銅鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -565,7 +565,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_銅藍.png',
+        'image_src' => '硫化_銅藍.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -574,7 +574,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_辰砂.png',
+        'image_src' => '硫化_辰砂.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -583,7 +583,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_鶏冠石.png',
+        'image_src' => '硫化_鶏冠石.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -592,7 +592,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_輝安鉱.png',
+        'image_src' => '硫化_輝安鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -601,7 +601,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_輝蒼鉛鉱.png',
+        'image_src' => '硫化_輝蒼鉛鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -610,7 +610,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_黄鉄鉱.png',
+        'image_src' => '硫化_黄鉄鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -619,7 +619,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_輝コバルト鉱.png',
+        'image_src' => '硫化_輝コバルト鉱.jpg',
       ],
       [
         'initial' => '硫化鉱物',
@@ -628,7 +628,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 5,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '硫化_輝水鉛鉱.png',
+        'image_src' => '硫化_輝水鉛鉱.jpg',
       ],
 
       //⑥宝石
@@ -639,7 +639,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ダイアモンド.png',
+        'image_src' => '宝石_ダイアモンド.jpg',
       ],
       [
         'initial' => '宝石',
@@ -648,7 +648,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ルビー.png',
+        'image_src' => '宝石_ルビー.jpg',
       ],
       [
         'initial' => '宝石',
@@ -657,7 +657,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_サファイア.png',
+        'image_src' => '宝石_サファイア.jpg',
       ],
       [
         'initial' => '宝石',
@@ -666,7 +666,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_エメラルド.png',
+        'image_src' => '宝石_エメラルド.jpg',
       ],
       [
         'initial' => '宝石',
@@ -675,7 +675,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_アクアマリン.png',
+        'image_src' => '宝石_アクアマリン.jpg',
       ],
       [
         'initial' => '宝石',
@@ -684,7 +684,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_トパーズ.png',
+        'image_src' => '宝石_トパーズ.jpg',
       ],
       [
         'initial' => '宝石',
@@ -693,7 +693,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_スピネル.png',
+        'image_src' => '宝石_スピネル.jpg',
       ],
       [
         'initial' => '宝石',
@@ -702,7 +702,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ジルコン.png',
+        'image_src' => '宝石_ジルコン.jpg',
       ],
       [
         'initial' => '宝石',
@@ -711,7 +711,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_トルマリン.png',
+        'image_src' => '宝石_トルマリン.jpg',
       ],
       [
         'initial' => '宝石',
@@ -720,7 +720,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ガーネット.png',
+        'image_src' => '宝石_ガーネット.jpg',
       ],
       [
         'initial' => '宝石',
@@ -729,7 +729,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ジェード.png',
+        'image_src' => '宝石_ジェード.jpg',
       ],
       [
         'initial' => '宝石',
@@ -738,7 +738,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_オパール.png',
+        'image_src' => '宝石_オパール.jpg',
       ],
       [
         'initial' => '宝石',
@@ -747,7 +747,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ペリドット.png',
+        'image_src' => '宝石_ペリドット.jpg',
       ],
       [
         'initial' => '宝石',
@@ -756,7 +756,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_アメジスト.png',
+        'image_src' => '宝石_アメジスト.jpg',
       ],
       [
         'initial' => '宝石',
@@ -765,7 +765,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_アゲート.png',
+        'image_src' => '宝石_アゲート.jpg',
       ],
       [
         'initial' => '宝石',
@@ -774,7 +774,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_クリソベリル.png',
+        'image_src' => '宝石_クリソベリル.jpg',
       ],
       [
         'initial' => '宝石',
@@ -783,7 +783,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ムーンストーン.png',
+        'image_src' => '宝石_ムーンストーン.jpg',
       ],
       [
         'initial' => '宝石',
@@ -792,7 +792,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ターコイズ.png',
+        'image_src' => '宝石_ターコイズ.jpg',
       ],
       [
         'initial' => '宝石',
@@ -801,7 +801,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_ラピスラズリ.png',
+        'image_src' => '宝石_ラピスラズリ.jpg',
       ],
       [
         'initial' => '宝石',
@@ -810,7 +810,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 6,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => '宝石_アンバー.png',
+        'image_src' => '宝石_アンバー.jpg',
       ],
 
       //⑦その他
@@ -821,7 +821,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_燐灰石.png',
+        'image_src' => 'その他_燐灰石.jpg',
       ],
       [
         'initial' => 'その他',
@@ -830,7 +830,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_燐灰ウラン鉱.png',
+        'image_src' => 'その他_燐灰ウラン鉱.jpg',
       ],
       [
         'initial' => 'その他',
@@ -839,7 +839,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_スコロド石.png',
+        'image_src' => 'その他_スコロド石.jpg',
       ],
       [
         'initial' => 'その他',
@@ -848,7 +848,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_藍鉄鉱.png',
+        'image_src' => 'その他_藍鉄鉱.jpg',
       ],
       [
         'initial' => 'その他',
@@ -857,7 +857,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_アダム鉱.png',
+        'image_src' => 'その他_アダム鉱.jpg',
       ],
       [
         'initial' => 'その他',
@@ -867,7 +867,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_灰重石.png',
+        'image_src' => 'その他_灰重石.jpg',
       ],
       [
         'initial' => 'その他',
@@ -876,7 +876,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_蛍石.png',
+        'image_src' => 'その他_蛍石.jpg',
       ],
       [
         'initial' => 'その他',
@@ -885,7 +885,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_岩塩.png',
+        'image_src' => 'その他_岩塩.jpg',
       ],
       [
         'initial' => 'その他',
@@ -894,7 +894,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_氷晶石.png',
+        'image_src' => 'その他_氷晶石.jpg',
       ],
       [
         'initial' => 'その他',
@@ -903,7 +903,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_石膏.png',
+        'image_src' => 'その他_石膏.jpg',
       ],
       [
         'initial' => 'その他',
@@ -912,7 +912,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_重晶石.png',
+        'image_src' => 'その他_重晶石.jpg',
       ],
       [
         'initial' => 'その他',
@@ -922,7 +922,7 @@ class KeywordTableSeeder extends Seeder
         'categories_id' => 7,
         'created_at' => now(),
         'updated_at' => now(),
-        'image_src' => 'その他_胆礬.png',
+        'image_src' => 'その他_胆礬.jpg',
       ],
       [
         'initial' => 'その他',

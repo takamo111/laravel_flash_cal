@@ -6,13 +6,14 @@
           <section>
             <h2 class="keyword-h2">
               <img class="keyword__logo" src="/images/search-mark.png" />
-              【{{ initial }}】からはじまるキーワード（{{ keyword.length }}語)
+              【{{ initial }}】（{{ keyword.length }}種類)
             </h2>
             <dl v-for="(key, index) in keyword" :key="index">
               <dt>{{key.keyword}}</dt>
               <dd class="keyword__description">
                 {{ key.description}}
                 <p class="text-right">カテゴリー：{{key.category.name }}</p>
+                <div V-if="imageSrc"><img class="quiz__responsive" id="quiz-image" :src="'/images/quiz/' + key.image_src"  /></div>
               </dd>
             </dl>
           </section>

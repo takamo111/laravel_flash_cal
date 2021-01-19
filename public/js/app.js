@@ -2414,6 +2414,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -60365,9 +60366,9 @@ var render = function() {
                   _vm._v(
                     "\n            【" +
                       _vm._s(_vm.initial) +
-                      "】からはじまるキーワード（" +
+                      "】（" +
                       _vm._s(_vm.keyword.length) +
-                      "語)\n          "
+                      "種類)\n          "
                   )
                 ]),
                 _vm._v(" "),
@@ -60383,6 +60384,16 @@ var render = function() {
                       ),
                       _c("p", { staticClass: "text-right" }, [
                         _vm._v("カテゴリー：" + _vm._s(key.category.name))
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { attrs: { "V-if": "imageSrc" } }, [
+                        _c("img", {
+                          staticClass: "quiz__responsive",
+                          attrs: {
+                            id: "quiz-image",
+                            src: "/images/quiz/" + key.image_src
+                          }
+                        })
                       ])
                     ])
                   ])
