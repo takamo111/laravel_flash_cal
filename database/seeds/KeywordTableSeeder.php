@@ -17,7 +17,7 @@ class KeywordTableSeeder extends Seeder
     
       [
         'initial' => '元素鉱物',
-        'description' => '成分である硫黄が火山ガスに多量に含まれているため、',
+        'description' => '成',
         'keyword' => '硫黄',
         'categories_id' => 1,
         'created_at' => now(),
