@@ -1,6 +1,6 @@
 <template>
   <section class="sidebar-keywords">
-        <h3 class="text-center sidebar-keywords-h3">キーワード集</h3>
+        <h3 class="text-center sidebar-keywords-h3">カテゴリー</h3>
         <ul class="sidebar-keywords__links">
           <li>
             <router-link to="/keyword?initial=元素鉱物">元素鉱物</router-link>
