@@ -92,34 +92,34 @@ VSCode
 |name|string|null: false|
 |email|string|null: false|
 
-### Association
-- has_many :tweets
-- has_many :likes
-- has_many :comments
 
-## tweetsテーブル
+
+## informationsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|infomation|text||
+
+
+
+## categoriesテーブル
 
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
-|image|string|null: false|
-|thirdphrase|string|null: false|
-|secondphrase|string|null: false|
-|firstphrase|string|null: false|
-|user_id|integer|null: false, foreign_key: true|
+
 
 ### Association
-- belongs_to :user
-- has_many :likes
-- has_many :comments
+- belongs_to :
+- belongs_to :
 
-## commentsテーブル
+
+## quizzesテーブル
 
 |Column|Type|Options|
 |------|----|-------|
-|content|string|null: false|
+|title|text||
 |tweet_id|integer|null: false, foreign_key: true|
-|user_id|integer|null: false, foreign_key: true|
 
 ### Association
 - belongs_to :user
