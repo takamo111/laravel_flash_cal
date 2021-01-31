@@ -58,7 +58,7 @@ https://mineral-trivia-quiz.herokuapp.com/
 
 
 # 工夫したポイント
-・
+・クイズを解いていくことで自然に鉱物の知識を得られるように写真と説明を
 ・
 
 
