@@ -53,9 +53,9 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'name' => ['required', 'string', 'min:3', 'max:20', 'unique:users'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'password' => ['required', 'string', 'min:8', 'alpha_num','confirmed'],
         ]);
     }
 
@@ -76,7 +76,6 @@ class RegisterController extends Controller
         ]);
     }
 
-  // ここから追加
   /**
    * Handle a registration request for the application.
    *

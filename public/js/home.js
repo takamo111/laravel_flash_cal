@@ -39178,7 +39178,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("section", { staticClass: "sidebar-keywords" }, [
     _c("h3", { staticClass: "text-center sidebar-keywords-h3" }, [
-      _vm._v("カテゴリー")
+      _vm._v("鉱物解説")
     ]),
     _vm._v(" "),
     _c("ul", { staticClass: "sidebar-keywords__links" }, [
