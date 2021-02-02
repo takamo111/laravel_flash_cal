@@ -4612,7 +4612,9 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 header {
   margin-top: -10px;
-  background: #8a888883;
+  background-image: url("/images/header_back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 header h1 {

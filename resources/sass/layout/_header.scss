@@ -1,6 +1,8 @@
 header {
   margin-top: -10px;
-  background:$header;
+  background-image: url('/images/header_back.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 
   h1 {
     font-size: 12px;
