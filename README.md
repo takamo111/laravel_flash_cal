@@ -26,6 +26,8 @@ https://mineral-trivia-quiz.herokuapp.com/
 ホーム画面の真ん中のロゴは、オリジナルで、canvaというロゴを作成できるサービスで作っています。  
 上部バナーについては全ページ共通で、すぐに行きたいページにアクセスできるようになっています。 
 
+<a href="https://gyazo.com/e26bb08ad859bbb94a800257ae936003"><img src="https://i.gyazo.com/e26bb08ad859bbb94a800257ae936003.png" alt="Image from Gyazo" width="1440"/></a>
+
 
 
 ## 新規登録画面
