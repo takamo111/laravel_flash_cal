@@ -28,6 +28,12 @@ https://mineral-trivia-quiz.herokuapp.com/
 
 <a href="https://gyazo.com/e26bb08ad859bbb94a800257ae936003"><img src="https://i.gyazo.com/e26bb08ad859bbb94a800257ae936003.png" alt="Image from Gyazo" width="100%"/></a>
 
+### 出題カテゴリー選択
+<a href="https://gyazo.com/7a31ba98210e5239a1f83730362288be"><img src="https://i.gyazo.com/7a31ba98210e5239a1f83730362288be.png" alt="Image from Gyazo" width="50%"/></a>
+
+### ランキング機能
+<a href="https://gyazo.com/392583d2e4992af5931f32480c52b71d"><img src="https://i.gyazo.com/392583d2e4992af5931f32480c52b71d.png" alt="Image from Gyazo" width="50%"/></a>
+
 ### 新規登録
 <a href="https://gyazo.com/7d584cbe70948c36b4771699436e5398"><img src="https://i.gyazo.com/7d584cbe70948c36b4771699436e5398.png" alt="Image from Gyazo" width="100%"/></a>
 
@@ -36,7 +42,6 @@ https://mineral-trivia-quiz.herokuapp.com/
 <a href="https://gyazo.com/1ca821f19581c8a9ad65d9f1c93002ec"><img src="https://i.gyazo.com/1ca821f19581c8a9ad65d9f1c93002ec.png" alt="Image from Gyazo" width="100%"/></a>
 
 ## クイズ画面
-
 
 ### 回答前
 <a href="https://gyazo.com/8359c0c600dc4e13de49a2971f5b8bad"><img src="https://i.gyazo.com/8359c0c600dc4e13de49a2971f5b8bad.png" alt="Image from Gyazo" width="100%"/></a>
