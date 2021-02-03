@@ -25,7 +25,7 @@ https://mineral-trivia-quiz.herokuapp.com/
 ## トップページ
 
 
-<a href="https://gyazo.com/6e840c7409428cc6a56f7aeeb8244237"><img src="https://i.gyazo.com/6e840c7409428cc6a56f7aeeb8244237.jpg" alt="Image from Gyazo" width="50%"/></a>
+
 
 ## 新規登録画面
 新規登録画面 
@@ -52,8 +52,28 @@ https://mineral-trivia-quiz.herokuapp.com/
 
 <a href="https://gyazo.com/86318b4ba6ae4072ec99016b5aa94952"><img src="https://i.gyazo.com/86318b4ba6ae4072ec99016b5aa94952.png" alt="Image from Gyazo" width="100%"/></a>  
 
-## 詳細画面  
 
+
+
+
+
+
+## 新規登録画面
+<a href="https://gyazo.com/7d584cbe70948c36b4771699436e5398"><img src="https://i.gyazo.com/7d584cbe70948c36b4771699436e5398.png" alt="Image from Gyazo" width="50%"/></a>
+
+
+## クイズ画面
+<a href="https://gyazo.com/4464e7c29264174a28571f2d4c8ff4e6"><img src="https://i.gyazo.com/4464e7c29264174a28571f2d4c8ff4e6.png" alt="Image from Gyazo" width="50%"/></a>
+
+### 正答率表示
+<a href="https://gyazo.com/46d5b6c424bd71cc075bd0c965c8b3a6"><img src="https://i.gyazo.com/46d5b6c424bd71cc075bd0c965c8b3a6.png" alt="Image from Gyazo" width="50%"/>/></a>
+
+
+## 鉱物図鑑機能
+<a href="https://gyazo.com/6531fae184227d23c72a49c82e0b5354"><img src="https://i.gyazo.com/6531fae184227d23c72a49c82e0b5354.png" alt="Image from Gyazo" width="50%"/></a>
+
+## マイページ画面
+<a href="https://gyazo.com/61df49f6ed1ab2148ad83da48c1bdf18"><img src="https://i.gyazo.com/61df49f6ed1ab2148ad83da48c1bdf18.png" alt="Image from Gyazo" width="567"/></a>
 
 
 
