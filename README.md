@@ -9,7 +9,7 @@
 鉱物の雑学&クイズは、俳句投稿型のSNSです。  
 
   
-<img src="https://user-images.githubusercontent.com/56215139/99416311-13afd880-293c-11eb-8003-6f4f55db0e96.jpg" width=30%>  
+<a href="https://gyazo.com/07a43c72f10a861693bde666372d4289"><img src="https://i.gyazo.com/07a43c72f10a861693bde666372d4289.png" alt="Image from Gyazo" width="278"/></a>
 
 
  
@@ -28,26 +28,22 @@ https://mineral-trivia-quiz.herokuapp.com/
 
 <a href="https://gyazo.com/e26bb08ad859bbb94a800257ae936003"><img src="https://i.gyazo.com/e26bb08ad859bbb94a800257ae936003.png" alt="Image from Gyazo" width="1440"/></a>
 
-
-
-## 新規登録画面
-新規登録画面 
+### 新規登録
 <a href="https://gyazo.com/7d584cbe70948c36b4771699436e5398"><img src="https://i.gyazo.com/7d584cbe70948c36b4771699436e5398.png" alt="Image from Gyazo" width="1026"/></a>
 
-サインイン  
+
+### サインイン  
 <a href="https://gyazo.com/1ca821f19581c8a9ad65d9f1c93002ec"><img src="https://i.gyazo.com/1ca821f19581c8a9ad65d9f1c93002ec.png" alt="Image from Gyazo" width="992"/></a>
 
-## トップページ
-
-
 ## クイズ画面
-回答前
+
+### 回答前
 <a href="https://gyazo.com/8359c0c600dc4e13de49a2971f5b8bad"><img src="https://i.gyazo.com/8359c0c600dc4e13de49a2971f5b8bad.png" alt="Image from Gyazo" width="1440"/></a>
 
-回答後
+### 回答後
 <a href="https://gyazo.com/4464e7c29264174a28571f2d4c8ff4e6"><img src="https://i.gyazo.com/4464e7c29264174a28571f2d4c8ff4e6.png" alt="Image from Gyazo" width="50%"/></a>
 
-正答率表示(10問回答後)
+### 正答率表示(10問回答後)
 <a href="https://gyazo.com/46d5b6c424bd71cc075bd0c965c8b3a6"><img src="https://i.gyazo.com/46d5b6c424bd71cc075bd0c965c8b3a6.png" alt="Image from Gyazo" width="50%"/>/></a>
 
 
